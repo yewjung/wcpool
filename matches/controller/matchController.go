@@ -1,10 +1,10 @@
 package controller
 
 import (
+	matchesModels "matches/models"
+	"matches/service"
 	"net/http"
 	"wcpool/authorization"
-	matchesModels "wcpool/matches/models"
-	"wcpool/matches/service"
 	"wcpool/models"
 	"wcpool/utils"
 )

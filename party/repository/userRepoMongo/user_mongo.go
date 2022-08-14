@@ -3,7 +3,7 @@ package userRepoMongo
 import (
 	"context"
 	"log"
-	"wcpool/party/models"
+	"party/models"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"

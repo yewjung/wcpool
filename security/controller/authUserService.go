@@ -4,10 +4,10 @@ import (
 	"database/sql"
 	"errors"
 	"os"
+	"security/constants"
+	"security/models"
+	passwordRepo "security/repository/password"
 	"time"
-	"wcpool/security/constants"
-	"wcpool/security/models"
-	passwordRepo "wcpool/security/repository/password"
 
 	"github.com/golang-jwt/jwt"
 	"golang.org/x/crypto/bcrypt"

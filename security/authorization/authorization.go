@@ -2,9 +2,9 @@ package authorization
 
 import (
 	context "context"
+	"security/controller"
+	"security/models"
 	auth "wcpool/authorization"
-	"wcpool/security/controller"
-	"wcpool/security/models"
 )
 
 type AuthorizationServerImpl struct {

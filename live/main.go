@@ -1,11 +1,11 @@
-package live
+package main
 
 import (
 	"encoding/json"
 	"fmt"
+	"live/models"
 	"wcpool/constants"
 	"wcpool/driver"
-	"wcpool/live/models"
 	"wcpool/utils"
 
 	"github.com/streadway/amqp"

@@ -1,17 +1,17 @@
-package security
+package main
 
 import (
 	"fmt"
 	"log"
 	"net"
 	"net/http"
+	"security/authorization"
+	controller "security/controller"
+	securityDriver "security/driver"
+	"security/models"
 	"sync"
 	auth "wcpool/authorization"
 	"wcpool/driver"
-	"wcpool/security/authorization"
-	controller "wcpool/security/controller"
-	securityDriver "wcpool/security/driver"
-	"wcpool/security/models"
 
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"

@@ -2,11 +2,11 @@ package service
 
 import (
 	"context"
-	matchModels "wcpool/matches/models"
+	matchModels "matches/models"
 	"wcpool/models"
 	"wcpool/utils"
 
-	"wcpool/matches/repository"
+	"matches/repository"
 )
 
 type MatchService struct {

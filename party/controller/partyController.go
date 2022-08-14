@@ -2,10 +2,10 @@ package controller
 
 import (
 	"net/http"
+	partyModels "party/models"
+	"party/service"
 	"wcpool/authorization"
 	"wcpool/models"
-	partyModels "wcpool/party/models"
-	"wcpool/party/service"
 	"wcpool/utils"
 
 	"github.com/gorilla/mux"

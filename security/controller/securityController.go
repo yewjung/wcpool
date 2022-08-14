@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"log"
 	"net/http"
+	securityModel "security/models"
 	"time"
 	models "wcpool/models"
-	securityModel "wcpool/security/models"
 )
 
 type SecurityController struct {

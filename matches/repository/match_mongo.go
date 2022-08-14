@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 	"log"
-	matchModels "wcpool/matches/models"
+	matchModels "matches/models"
 	"wcpool/models"
 
 	"go.mongodb.org/mongo-driver/bson"

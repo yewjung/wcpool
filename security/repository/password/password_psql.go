@@ -2,7 +2,7 @@ package passwordRepo
 
 import (
 	"database/sql"
-	"wcpool/security/models"
+	"security/models"
 )
 
 type PasswordRepo struct {

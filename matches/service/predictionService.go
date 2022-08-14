@@ -3,9 +3,9 @@ package service
 import (
 	"context"
 	"fmt"
+	"matches/models"
+	"matches/repository"
 	"sync"
-	"wcpool/matches/models"
-	"wcpool/matches/repository"
 	"wcpool/utils"
 
 	"github.com/go-redis/redis/v9"

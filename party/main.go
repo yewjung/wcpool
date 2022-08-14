@@ -1,17 +1,17 @@
-package party
+package main
 
 import (
 	"fmt"
 	"log"
 	"net/http"
+	"party/controller"
+	partyDriver "party/driver"
+	partyModels "party/models"
+	"party/service"
 	"wcpool/authorization"
 	"wcpool/constants"
 	"wcpool/driver"
 	"wcpool/models"
-	"wcpool/party/controller"
-	partyDriver "wcpool/party/driver"
-	partyModels "wcpool/party/models"
-	"wcpool/party/service"
 
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"

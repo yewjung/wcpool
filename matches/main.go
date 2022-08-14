@@ -1,12 +1,12 @@
-package matches
+package main
 
 import (
 	"log"
+	"matches/controller"
+	matchesDriver "matches/driver"
+	matchesModels "matches/models"
 	"wcpool/authorization"
 	"wcpool/driver"
-	"wcpool/matches/controller"
-	matchesDriver "wcpool/matches/driver"
-	matchesModels "wcpool/matches/models"
 	"wcpool/models"
 
 	"github.com/gorilla/mux"

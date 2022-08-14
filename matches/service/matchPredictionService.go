@@ -2,7 +2,7 @@ package service
 
 import (
 	"context"
-	"wcpool/matches/models"
+	"matches/models"
 	"wcpool/utils"
 )
 
